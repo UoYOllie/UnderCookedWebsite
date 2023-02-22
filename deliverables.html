@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OuterCooked</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
+    </head>
+    <body>
+        <div class="headband">
+            <img src="assets/images/title.png" class = "title-image">
+            <table class="navigator">
+                <tr>
+                    <td style="width:20%"
+                        onclick="document.location='index.html'">
+                        Home
+                    </td>
+                    <td style="width:20%"
+                        onclick="document.location='download.html'">
+                        Download
+                    </td>
+                    <td style="width:20%"
+                        onclick="document.location='github.html'">
+                        Github
+                    </td>
+                    <td style="width:20%"
+                        onclick="document.location='team.html'">
+                        The Team
+                    </td>
+                    <td style="width:20%"
+                        onclick="document.location='deliverables.html'">
+                        Deliverables
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="maincontent">
+            <h1>Deliverables</h1>
+            <table class="navigator">
+                <tr>
+                    <td style="width:20%"
+                        onclick="">
+                        Home
+                    </td>
+                    <td style="width:20%"
+                        onclick="download()">
+                        Download
+                    </td>
+                    <td style="width:20%"
+                        onclick="">
+                        Github
+                    </td>
+                    <td style="width:20%"
+                        onclick="muffins()">
+                        Muffins
+                    </td>
+                    <td style="width:20%"
+                        onclick="requirements()">
+                        Requirements
+                    </td>
+                </tr>
+            </table>
+            <div id = "deliverables">
+
+            </div>
+        </div>
+
+    <script>
+        function requirements() {
+            document.getElementById("deliverables").innerHTML =
+            "<p>This is a test paragraph</p>";
+        }
+        function download() {
+            document.getElementById("deliverables").innerHTML =
+                "<p>This is a download</p>";
+        }
+        function muffins() {
+            document.getElementById("deliverables").innerHTML =
+                "<image src='assets/images/space-bg.png'></image>";
+        }
+    </script>
+
+    </body>
+</html>
