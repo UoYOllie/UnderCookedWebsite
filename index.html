@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="headband">
-            <img src="assets/images/title.png" class = "title-image">
+            <img src="assets/images/title.png" class = "title-image" alt="OuterCooked">
             <table class="navigator">
                 <tr>
                     <td style="width:20%"
@@ -34,9 +34,39 @@
                 </tr>
             </table>
         </div>
-        <div class="maincontent">
-            <h1>Welcome!</h1>
-            <p>Welcome to UnderCooked! This website is here to showcase our frantic cooking game "UnderCooked", a project from students at the University of York.</p>
+        <div class="mainBody" style="background-color: rgba(0,0,0,0)">
+            <div style="width: 80%; margin-left: auto; margin-right: auto; position:relative; text-align: center;">
+                <img src="assets/images/textSlate3.png" alt="Screen" usemap="#ScreenMap" style="width: 100%; min-width: 700px">
+                <table class="screen" style="position: absolute; top:0; left:8%; width:10%;">
+
+                    <td id="B1"
+                        onclick="showGlibbert()"
+                    >
+                        <p></p>
+                    </td>
+                    <td id="B2"
+                        onclick="showBluggus()">
+
+                    </td>
+                    <td id="B3" style="background-color: gray">
+
+                    </td>
+                    <td id="B4" style="background-color: gray">
+
+                    </td>
+
+                </table>
+
+                <div id="screenContent"style="position: absolute; top: 8%; left: 10%; width:78%; min-width: 560px; margin-left: auto; margin-right: auto;">
+                    <h1>Welcome!</h1>
+                    <p style="margin-left: 5%; text-align: left">OuterCooked is a Java Development project by students at the University of York.
+                        Inspired by games like Overcooked and PlateUp!, this game aims to provide a similar experience.</p>
+
+                </div>
+            </div>
+
         </div>
     </body>
+
+    <script src="scripts/index-buttons.js"></script>
 </html>

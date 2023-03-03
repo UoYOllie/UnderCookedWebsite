@@ -1,15 +1,25 @@
 
 body{
-    font-family: Arial;
+    font-family: Arial, serif;
     background-image: url("../assets/images/space-bg.png");
+    background-attachment: fixed;
     margin:0;
 }
 
 h1 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
+    font-size: 40px;
+    color:white;
+    margin: 0;
 }
 
+p {
+    font-size: 20px;
+}
+img {
+    margin:0;
+}
 .headband {
     margin: 0;
     width: 100%;
@@ -24,8 +34,8 @@ h1 {
     display: block;
 }
 
-.maincontent {
-    width: 90%;
+.mainBody {
+    width: 70%;
     min-width: 490px;
     height: 70vh;
     margin-left: auto;
@@ -33,7 +43,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     color:white;
 }
-.maincontent p{
+.textSlate p{
     margin: 5%;
 
 }
@@ -51,8 +61,8 @@ h1 {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .navigator td:hover {
@@ -60,4 +70,47 @@ h1 {
     color: black;
     cursor: pointer;
 
+}
+
+.textSlate {
+    background-image: url("../assets/images/textslate2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    width: 70%;
+    height: inherit;
+    display: block;
+
+
+    min-width: 490px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+
+    alignment: top;
+
+}
+
+.imageButton {
+    background-color: #d76a6a;
+}
+.imageButton:hover {
+    color: #8a0c0c;
+    cursor: pointer;
+}
+
+.screen {
+    border-spacing: 20px;
+}
+
+.screen td {
+    background-color: #d76a6a;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.screen td:hover {
+    background-color: #8a0c0c;
+    cursor: pointer;
 }
