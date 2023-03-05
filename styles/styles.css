@@ -40,7 +40,8 @@ img {
     height: 70vh;
     margin-left: auto;
     margin-right:auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
     color:white;
 }
 .textSlate p{
@@ -58,15 +59,16 @@ img {
 }
 
 .navigator td {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    backdrop-filter: blur(6px);
 }
 
 .navigator td:hover {
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.3);
     color: black;
     cursor: pointer;
 
