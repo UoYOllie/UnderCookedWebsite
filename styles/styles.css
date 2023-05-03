@@ -37,7 +37,8 @@ img {
 .mainBody {
     width: 70%;
     min-width: 490px;
-    height: 70vh;
+    height: 100%;
+    min-height: 70vh;
     margin-left: auto;
     margin-right:auto;
     background-color: rgba(0, 0, 0, 0.6);
